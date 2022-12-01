@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+ }
+
+ 
+ header{
+    width: 100vw;
+    height: 20vh;
+    background-color: #523746;
+ }
+
+ .logo {
+    width: 120px;
+ }
+
+ .navbar {
+    position: absolute;
+    padding: 30px;
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+ }
+
+ .navbar a {
+    color:#FFF2DC;
+    margin: 0 30px;
+    font-size: 1em;
+    font-weight: bold;
+ }
+
+ .navbar .nav-links {
+    display: flex;
+    align-items: center;
+ }
+
+
+section.bière {
+    display: flex;
+   
+}
+
+.biere img{
+   flex-grow: 1;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+   
+
+}
+
+.biere div p {
+    align-items: center;
+    flex-grow: 2;
+    justify-content: left;
+}
+
+.pubs img{
+   width: 400px;
+}
+ 

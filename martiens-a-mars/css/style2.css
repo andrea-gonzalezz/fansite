@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+ }
+
+ header{
+    width: 100vw;
+    height: 20vh;
+    background-color: #523746;
+ }
+
+ .logo {
+    width: 120px;
+ }
+
+ .navbar {
+    position: absolute;
+    padding: 30px;
+    padding-top 1em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+ }
+
+ .navbar a {
+    color:#FFF2DC;
+    margin: 0 30px;
+    font-size: 1em;
+    font-weight: bold;
+ }
+
+ .navbar .nav-links {
+    display: flex;
+    align-items: center;
+ }
+
+ .presentation{
+    background-color: #E4E4E4;
+    text-align: center;
+    font-size: 1.2em;
+    display: flex;
+    position: relative;
+    padding-top: 2em;
+ }
+
+ .container{
+    width: 100vw;
+    height: 70vh;
+    background-color: #FFF2DC;    
+}
+
+.middle-page2{
+   display: flex;
+   margin: 5em;
+   padding-left: 1em;
+   
+  
+}
+
+.middle-page2 div{
+   padding: 3em;   
+}
+
+.div1{
+   background-color: aliceblue;
+}
+
+.div2{
+   background-color: aliceblue;
+}
+
+.middle-page2 p{
+   padding-top: 2em;
+   
+}
+
+.middle-page2 h2{
+   padding-bottom: 2em;
+}
+
+a.formulaire{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 3em;
+   text-decoration: none;
+   font-size: 30px;
+  
+   
+   
+}
+
+a.formulaire :hover {
+   text-shadow: 2px 2px 6px rgba(0, 0, 0,);
+}
